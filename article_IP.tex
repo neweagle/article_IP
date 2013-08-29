@@ -1,88 +1,126 @@
-\documentclass[a5paper,10pt,oneside, draft]{article}
+\documentclass[a5paper, 10pt, oneside, draft]{article}
 
 \usepackage[cp1251]{inputenc}
 
-\usepackage[T2A]{fontenc}
-
 \usepackage[english,russian]{babel}
 
-\usepackage{pscyr}
+\usepackage[T2A]{fontenc}
 
+% кириллица из другого пакета
+% \usepackage{pscyr}
+
+%графика
 \usepackage{epsfig}
 
-% Меняем поля страницы
+% Меняем поля страницы пакетом geometry
 \usepackage{geometry}
 
-\geometry{left=1.7cm}
+\geometry{left=2.0cm}
 
-\geometry{right=1.7cm}
+\geometry{right=2.0cm}
 
-\geometry{top=1.5cm}
+\geometry{top=2.0cm}
 
-\geometry{bottom=1.7cm}
+\geometry{bottom=2.5cm}
 
-%допустимость пустых строк
+\geometry{bindingoffset=0cm}
+
+%чтобы не было заездов на поля
 \tolerance=2000
+
+%отступ красной строки 7 мм
+\setlength{\footskip}{7mm}
 
 %между строчками одиночный интервал
 \def\baselinestretch{1.00} 
 
-\begin{document}
-\begin{center}
-{\large {\bf Исследование доступности (?) сервисов мобильных пользователей облачноориентированой избыточной мультипротокольной сети автомобилей}}\\[8pt]
+% название и авторы без автоматического формирования заголовка
+\title{Исследование доступности(?) сервисов мобильных пользователей облачно--ориентированой избыточной мультипротокольной сети автомобилей}
 
-{\sc Глазунов В.В., Курочкин Л.М., Курочкин М.А., Попов С.Г.}\\[8pt]
+\author{Глазунов В.В., Курочкин Л.М., Курочкин М.А., Попов С.Г.}
+
+\begin{document}
+
+%страницы без колонтитулов и номеров страницы
+\pagestyle{empty}
+
+%счётчик для разделов
+\newcounter{MySection}
+\newcommand{\SetMySection}{\addtocounter{MySection}{1}\arabic{MySection}.}
+
+%счётчик для подразделов
+\newcounter{MySubSection}[MySection]
+\newcommand{\SetMySubSection}{\addtocounter{MySubSection}{1}\arabic{MySection}.\arabic{MySubSection}.}
+
+%счётчик для подподразделов
+\newcounter{MySubSubSection}[MySection][MySubSection]
+\newcommand{\SetMySubSubSection}{\addtocounter{MySubSubSection}{1}\arabic{MySection}.\arabic{MySubSection}.\arabic{MySubSubSection}.}
+
+
+{\footnotesize \noindent {\bf УДК} ХХХ.ХХ, ХХХ.ХХ}
+
+\begin{center}
+
+{\sc Глазунов~В.\,В., Курочкин~Л.\,М., Курочкин~М.\,А., Попов~С.\,Г.}
+
+{\large { \uppercase {\bf Исследование доступности(?) сервисов мобильных пользователей облачно--ориентированой избыточной мультипротокольной сети автомобилей}}}
 
 \end{center}
 
+\smallskip
+
+\hrule 
+
+\vskip 1.7mm
+
+{\footnotesize
+
+\noindent {\it Глазунов~В.\,В., Курочкин~Л.\,М., Курочкин~М.\,А., Попов~С.\,Г.\/} {\bf Исследование доступности(?) сервисов мобильных пользователей облачно--ориентированой избыточной мультипротокольной сети автомобилей.}\\
+{\bf Аннотация.} 
+Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк.\\
+{\bf Ключевые слова:}
+автомобильные сервисы, автомобильные сети, протоколы передачи данных, моделирование, ns--3.
+
+\vskip 2mm
+
+\noindent {\it Glazunov V.\,V., Kurochkin L.\,M., Kurochkin M.\,A., Popov S.\,G.\/} {\bf Atricle title Atricle title Atricle title Atricle title Atricle title Atricle title  Atricle title  Atricle title.}\\
+{\bf Abstract.} 
+Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min.\\
+{\bf Keywords:} 
+Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords.
+
+} % end footnotesize
+
+\vskip 1.5mm
+
 \hrule
 
-\medskip
+\vskip 3mm 
 
-\noindent {\bf УДК} ХХХ.ХХ, ХХХ.ХХ
-
-{\small
-
-\noindent {\it Глазунов В.В., Курочкин Л.М., Курочкин М.А., Попов С.Г}{\bf Название сатьти название статьи название статьи название статьи.}
-
-\noindent {\bf Аннотация.} Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк, Текст аннотации не менее 8 строк.
-
-\noindent {\bf Ключевые слова.} автомобильные сервисы, автомобильные сети, протоколы передачи данных, моделирование, ns--3.
-
-\medskip
-
-\noindent {\it Глазунов В.В., Курочкин Л.М., Курочкин М.А., Попов С.Г}{\bf Atricle title Atricle title Atricle title Atricle title Atricle title Atricle title.}
-
-\noindent {\bf Abstract.} Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min,  Abstract text 8 line min.
-
-\noindent {\bf Keywords.} Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords.
-
-} % end small
-
-\section{Введение} %Сергей
+%\section{Введение}
 \input{intro.tex}
 
-\section{Автомобильные телекоммуникационные сервисы} %Сергей
+\section{Автомобильные телекоммуникационные сервисы}
 \input{auto.tex}
 
-\section{Телематические технологии доступа к сервисам}%Лёня и Вадик
+\section{Телематические технологии доступа к сервисам}
 %Вторая часть: какие технологии есть сегодня для обеспечения сервисов (кусок из роада)
 \input{telematics.tex}
 
-\section{Облачно--ориентированная избыточная мультипротокольная сеть}%Лёня и Вадик
+\section{Облачно--ориентированная избыточная мультипротокольная сеть}
 %Третья часть: что мы нового предложили. Многопротокольность, облачноориентированность и избыточность с картинками
 \input{cloud.tex}
 
-\section{Реализация среды моделирования передачи сообщений в сети автомобилей} %Вадик
+\section{Реализация среды моделирования передачи сообщений в сети автомобилей} 
 %Среда моделирования ns-3
 \input{implementation.tex}
 
-\section{Исследование (?)}%Лёня
+\section{Исследование (?)}
 \input{research.tex}
 
-\section{Заключение}%Серёжа и все
+\section{Заключение}
 \input{conclusion.tex}
 
-\section{Литература}%Серёжа
+\section{Литература}
 
 \end{document}

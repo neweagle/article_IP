@@ -12,6 +12,28 @@
 %графика
 \usepackage{epsfig}
 
+% переопределение команды для компактного перечисления
+\renewenvironment{itemize}{
+    \begin{list}{\labelitemi}{
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parsep}{0pt}
+    }
+}{\end{list}}
+
+% переопределение команды для компактного нумератора
+\renewenvironment{enumerate}{
+    \begin{list}{\labelitemi}{
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parsep}{0pt}
+    }
+}{\end{list}}
+
 % Меняем поля страницы пакетом geometry
 \usepackage{geometry}
 

@@ -10,7 +10,11 @@ Bookmark#6=0
 Bookmark#7=0
 Bookmark#8=0
 Bookmark#9=0
+<<<<<<< HEAD
 CaretPos.X=42
+=======
+CaretPos.X=0
+>>>>>>> 0d2c52501091d9897304525de17020cc90969a88
 CaretPos.Y=0
 CharSet=def
 FileName=article_ip.tex
@@ -69,12 +73,12 @@ Bookmark#9=0
 CaretPos.X=0
 CaretPos.Y=0
 CharSet=def
-FileName=articleIP.bib
+FileName=article_IP.bib
 FoldedLines=
 IsMainFile=no
 Opened=yes
 ScrollPos.X=0
-ScrollPos.Y=1
+ScrollPos.Y=0
 SearchListCount=0
 ShowSyntax=yes
 SpellChecking=yes
@@ -95,14 +99,14 @@ Bookmark#7=0
 Bookmark#8=0
 Bookmark#9=0
 CaretPos.X=0
-CaretPos.Y=0
+CaretPos.Y=100
 CharSet=def
 FileName=auto.tex
 FoldedLines=
 IsMainFile=no
 Opened=yes
 ScrollPos.X=0
-ScrollPos.Y=0
+ScrollPos.Y=159
 SearchListCount=0
 ShowSyntax=yes
 SpellChecking=yes
@@ -290,15 +294,24 @@ Bookmark#6=0
 Bookmark#7=0
 Bookmark#8=0
 Bookmark#9=0
+<<<<<<< HEAD
 CaretPos.X=10
 CaretPos.Y=5
+=======
+CaretPos.X=0
+CaretPos.Y=0
+>>>>>>> 0d2c52501091d9897304525de17020cc90969a88
 CharSet=def
 FileName=authors.tex
 FoldedLines=
 IsMainFile=no
 Opened=yes
 ScrollPos.X=0
+<<<<<<< HEAD
 ScrollPos.Y=1
+=======
+ScrollPos.Y=0
+>>>>>>> 0d2c52501091d9897304525de17020cc90969a88
 SearchListCount=0
 ShowSyntax=yes
 SpellChecking=yes
@@ -392,7 +405,7 @@ Zoom=9
 FileName=1
 FirstPage=0
 Magnifier=5
-Page=0
+Page=1
 PaperHeight=297
 PaperWidth=210
 Zoom=6

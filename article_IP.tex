@@ -53,7 +53,7 @@
 \newcommand{\SetMySubSection}{\addtocounter{MySubSection}{1}\arabic{MySection}.\arabic{MySubSection}.}
 
 %счётчик для подподразделов
-\newcounter{MySubSubSection}[MySection][MySubSection]
+\newcounter{MySubSubSection}[MySubSection]
 \newcommand{\SetMySubSubSection}{\addtocounter{MySubSubSection}{1}\arabic{MySection}.\arabic{MySubSection}.\arabic{MySubSubSection}.}
 
 
@@ -123,11 +123,10 @@ Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, Keywords, 
 
 \section{Литература}
 
+%сведения об авторах
 \input{authors.tex}
 
+%рефераты по русски и английски
 \input{summary.tex}
-
-
-
 
 \end{document}

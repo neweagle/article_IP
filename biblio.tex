@@ -1,7 +1,13 @@
-{\bf{\SetMySection} Литература.}
+%{\bf{\SetMySection} Литература.}
 
+\makeatletter
 
 \renewcommand\@biblabel[1]{\arabic{enumiv}.}
+
+\makeatother
+
+\renewcommand{\refname}{\normalsize $\phantom{00.}$Литература}
+
 \bibliography{article_IP}{}
 
 % \bibliographystyle{plain}

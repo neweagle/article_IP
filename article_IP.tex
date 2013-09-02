@@ -1,4 +1,4 @@
-\documentclass[a5paper,10pt,oneside]{article}
+\documentclass[a5paper,10pt,oneside, draft]{article}
 
 \usepackage[cp1251]{inputenc}
 
@@ -17,8 +17,16 @@
 % кириллица из другого пакета
 %\usepackage{pscyr}
 
-%графика
+%графика и её размещение
 \usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{float}
+
+% точка в перечислителе рисунков
+\usepackage{ccaption}
+\usepackage{topcapt}
+\captiondelim{. }
 
 % переопределение команды для компактного перечисления
 \renewenvironment{itemize}{
@@ -86,6 +94,17 @@
 \newcounter{MySubSubSection}[MySubSection]
 \newcommand{\SetMySubSubSection}{\addtocounter{MySubSubSection}{1}\arabic{MySection}.\arabic{MySubSection}.\arabic{MySubSubSection}.}
 
+% переопределение команды для компактного написания подписи
+\makeatletter
+\long\def\@makecaption#1#2{%
+%  \vskip\abovecaptionskip
+  \hbox to\textwidth{\hfill\parbox{0.8\textwidth}{
+\begin{center}
+{\footnotesize #1. #2}
+\end{center}}\hfill}
+%  \vskip\belowcaptionskip
+}
+\makeatother
 
 {\footnotesize \noindent {\bf УДК} ХХХ.ХХ, ХХХ.ХХ}
 

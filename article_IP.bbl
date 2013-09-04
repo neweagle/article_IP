@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{Andreev}
 Kirill Andreev and Pavel Boyko.
@@ -12,24 +12,10 @@ H.~Arbabi and M.C. Weigle.
 \newblock In {\em Simulation Conference (WSC), Proceedings of the 2010 Winter},
   pages 2991--3003, 2010.
 
-\bibitem{Ford.co.uk}
-Ford.co.uk.
-\newblock News from ford. ford's sync emergency assistance could provide
-  important support to road accident victims says aa president.
-\newblock Retrieved March, 15, 2013 from
-  \url{http://www.ford.co.uk/experience-ford/AboutFord/News/CompanyNews/2012/Fords-Sync-Emergency-Assistance},
-  2012.
-
 \bibitem{Instrumental}
 Kurochkin~Mihail Glazunov~Vadim, Kurochkin~Leonid and Popov Sergey.
 \newblock Instrumental environment of multi-protocol cloud-oriented vehicular
   mesh network.
-\newblock In {\em 10th International Conference on Informatics in Control,
-  Automation and Robotics (ICINCO)}, 2013.
-
-\bibitem{Road}
-Kurochkin~Mihail Glazunov~Vadim, Kurochkin~Leonid and Popov Sergey.
-\newblock Road traffic efficiency and safety improvements trends.
 \newblock In {\em 10th International Conference on Informatics in Control,
   Automation and Robotics (ICINCO)}, 2013.
 
@@ -61,11 +47,5 @@ Hemanth Narra, Yufei Cheng, Egemen~K. \c{C}etinkaya, Justin~P. Rohrer, and
 Nsnam.org.
 \newblock Ns-3.
 \newblock Retrieved March, 15, 2013 from \url{http://www.nsnam.org}, 2013.
-
-\bibitem{Seong-Youp}
-Anand S.~Konanur Seong-Youp~Suh, Salih~Yarga.
-\newblock Multiprotocol antenna structure and method for synthesizing a
-  multiprotocol antenna pattern.
-\newblock US Patent PCT/US2010/042396., 2010.
 
 \end{thebibliography}

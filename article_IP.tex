@@ -1,10 +1,15 @@
-\documentclass[a5paper,10pt,oneside]{article}
+\documentclass[a5paper,10pt,oneside, final]{article}
 
 \usepackage[cp1251]{inputenc}
 
 \usepackage[english,russian]{babel}
 
 \usepackage[T2A]{fontenc}
+
+% возможна кириллица из другого пакета
+%\usepackage{pscyr}
+
+\usepackage{soul}
 
 % для правильного переноса url три пакета
 \usepackage{hyperref}
@@ -13,9 +18,6 @@
 
 %для цитат
 \usepackage{cite}
-
-% кириллица из другого пакета
-%\usepackage{pscyr}
 
 %графика и её размещение
 \usepackage{epsfig}
@@ -126,7 +128,7 @@
 
 \noindent {\it Глазунов~В.\,В., Курочкин~Л.\,М., Курочкин~М.\,А., Попов~С.\,Г.\/} {\bf Исследование доступности сервисов мобильных пользователей облачно--ориентированой избыточной мультипротокольной сети автомобилей.}\\
 {\bf Аннотация.} 
-Совокупность современных автомобилей, дорожной инфраструктуры и облачных информационных ресурсов образуют интеллектуальную транспортную сеть, сервисы которой, позволяют повысить безопасность и комфорт передвижения участников дорожного движения. Проблемой обеспечения информационного обмена является отсутствие постоянного выделенного беспроводного канала связи. В статье предложено решение, позволяющее увеличить время доступности сервисов облачной среды, состоящее в дополнении индивидуального выделенного канала mesh сетью. В этом случае функции маршрутизации принимает на себя мультипротокольный сетевой узел. Описана имитационная модель сети передачи экстренных сообщений и сформулирован перечень параметров моделирования. Результаты моделирования демонстрируют увеличение времени доступности сервисов облачной среды обмена экстренными сообщениями в различных конфигурациях автомобильной mesh сети, свойств сетевого трафика и особенностей организации дорожного движения.\\
+Интеллектуальная  транспортная сеть позволяет повысить безопасность участников дорожного движения и облегчает им доступ к информационным ресурсам. Основной проблемой эффективного взаимодействия элементов интеллектуальной транспортной сети является обеспечение постоянной надёжной связи между ее элементами. В статье рассматриваются варианты решения этой проблемы позволяющие увеличить время доступности сервисов информационной облачной среды. Рассмотрены варианты построения мультипротокольного сетевого узла. Описана имитационная модель сети передачи экстренных сообщений и определён перечень параметров моделирования в среде ns--3. Результаты моделирования демонстрируют увеличение времени доступности сервисов облачной среды обмена экстренными сообщениями в различных конфигурациях автомобильной mesh сети, свойств сетевого трафика и особенностей организации дорожного движения.\\
 {\bf Ключевые слова:}
 автомобильные сервисы, mesh, 802.11s, LTE, IDM, облачные сервисы, мультипротокольный узел, протоколы передачи данных, протоколы маршрутизации, имитационное моделирование, ns--3.
 
@@ -134,7 +136,7 @@
 
 \noindent {\it Glazunov V.\,V., Kurochkin L.\,M., Kurochkin M.\,A., Popov S.\,G.\/} {\bf The research of service availability of mobile users in cloud oriented multiprotocol surplus network of vehicles.}\\
 {\bf Abstract.} 
-A set of modern vehicles, road infrastructure and cloud computing resources forms an intelligent transportation network, whose services allow to improve safety and transportation comfort of the traffic participants. Absense of persistent dedicated wireless communication channel is a problem for information exchange provision. Solution suggested in the article allows to increase availability of cloud services by addition of mesh network to dedicated channel. In this case routing abilities are provided by the multiprotocol network node. Simulation model of emergency messages transfer network has been built with the set of simulation parameters. The results obtained show increase in availability of emergency messages exchange cloud services in different configurations of automotive mesh network, network traffic properties and road traffic characteristics.\\
+Intelligent traffic network allows to improve safety of traffic participants and simplifies access to information resources. The main problem of efficient interaction between elements of ITN is provision for permanent reliable connections between them. The article discusses such solitions to the problem that allow to increase availability of information cloud environment services. Multiprotocol network node building options were considered. Simulation model of emergency messages transfer network was built within "NS--3" network simulation environment and the set of simulation parameters was defined. Simulation results show increase in availability of the emergency messages transfer cloud services in different configurations of automotive mesh network, network traffic properties and road traffic characteristics.\\
 {\bf Keywords:}
 vehicle services, automotive services, cloud services, cloud environment, multiprotocol node, data transfer protocol, routing protocols, network simulation, vehicle, VIN, mesh, 802.11s, LTE, IDM.
 

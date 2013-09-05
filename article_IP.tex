@@ -75,7 +75,7 @@
 \def\baselinestretch{1.00} 
 
 % название и авторы без автоматического формирования заголовка
-\title{Исследование доступности сервисов мобильных пользователей облачно--ориентированой избыточной мультипротокольной сети автомобилей}
+\title{Исследование доступности информационных сервисов для мобильных пользователей}
 
 \author{Глазунов В.В., Курочкин Л.М., Курочкин М.А., Попов С.Г.}
 
@@ -114,7 +114,7 @@
 
 {\sc Глазунов~В.\,В., Курочкин~Л.\,М., Курочкин~М.\,А., Попов~С.\,Г.}
 
-{\large { \uppercase {\bf Исследование доступности сервисов мобильных пользователей облачно--ориентированой избыточной мультипротокольной сети автомобилей}}}
+{\large { \uppercase {\bf Исследование доступности информационных сервисов для мобильных пользователей}}}
 
 \end{center}
 
@@ -126,9 +126,9 @@
 
 {\footnotesize
 
-\noindent {\it Глазунов~В.\,В., Курочкин~Л.\,М., Курочкин~М.\,А., Попов~С.\,Г.\/} {\bf Исследование доступности сервисов мобильных пользователей облачно--ориентированой избыточной мультипротокольной сети автомобилей.}\\
+\noindent {\it Глазунов~В.\,В., Курочкин~Л.\,М., Курочкин~М.\,А., Попов~С.\,Г.\/} {\bfИсследование доступности информационных сервисов для мобильных пользователей.}\\
 {\bf Аннотация.} 
-Интеллектуальная  транспортная сеть позволяет повысить безопасность участников дорожного движения и облегчает им доступ к информационным ресурсам. Основной проблемой эффективного взаимодействия элементов интеллектуальной транспортной сети является обеспечение постоянной надёжной связи между ее элементами. В статье рассматриваются варианты решения этой проблемы позволяющие увеличить время доступности сервисов информационной облачной среды. Рассмотрены варианты построения мультипротокольного сетевого узла. Описана имитационная модель сети передачи экстренных сообщений и определён перечень параметров моделирования в среде ns--3. Результаты моделирования демонстрируют увеличение времени доступности сервисов облачной среды обмена экстренными сообщениями в различных конфигурациях автомобильной mesh сети, свойств сетевого трафика и особенностей организации дорожного движения.\\
+Интеллектуальная  транспортная  сеть (ИТС) позволяет повысить безопасность участников дорожного движения и облегчает им доступ к информационным ресурсам. Основной проблемой эффективного взаимодействия элементов ИТС является обеспечение постоянной надежной связи между ее элементами. В статье рассматриваются варианты решения этой проблемы позволяющие увеличить время доступа к сервисам информационной облачной среды. Рассмотрены варианты построения мультипротокольного сетевого узла. Описана имитационная модель сети передачи экстренных сообщений и определен перечень параметров моделирования в среде ns-3. Результаты моделирования демонстрируют увеличение времени доступа к сервисам облачной среды обмена экстренными сообщениями в различных конфигурациях автомобильной mesh сети, свойств сетевого трафика и особенностей организации дорожного движения.\\
 {\bf Ключевые слова:}
 автомобильные сервисы, mesh, 802.11s, LTE, IDM, облачные сервисы, мультипротокольный узел, протоколы передачи данных, протоколы маршрутизации, имитационное моделирование, ns--3.
 
@@ -136,9 +136,9 @@
 
 \noindent {\it Glazunov V.\,V., Kurochkin L.\,M., Kurochkin M.\,A., Popov S.\,G.\/} {\bf The research of service availability of mobile users in cloud oriented multiprotocol surplus network of vehicles.}\\
 {\bf Abstract.} 
-Intelligent traffic network allows to improve safety of traffic participants and simplifies access to information resources. The main problem of efficient interaction between elements of ITN is provision for permanent reliable connections between them. The article discusses such solitions to the problem that allow to increase availability of information cloud environment services. Multiprotocol network node building options were considered. Simulation model of emergency messages transfer network was built within "NS--3" network simulation environment and the set of simulation parameters was defined. Simulation results show increase in availability of the emergency messages transfer cloud services in different configurations of automotive mesh network, network traffic properties and road traffic characteristics.\\
+Intelligent traffic network allows to improve safety of traffic participants and simplifies access to information resources. The main problem of efficient interaction between elements of intelligent traffic network is provision for permanent reliable connections between them. The article discusses such solitions to the problem that allow to increase availability of information cloud environment services. Multiprotocol network node building options were considered. Simulation model of emergency messages transfer network was built within "NS--3" network simulation environment and the set of simulation parameters was defined. Simulation results show increase in availability of the emergency messages transfer cloud services in different configurations of automotive mesh network, network traffic properties and road traffic characteristics.\\
 {\bf Keywords:}
-vehicle services, automotive services, cloud services, cloud environment, multiprotocol node, data transfer protocol, routing protocols, network simulation, vehicle, VIN, mesh, 802.11s, LTE, IDM.
+vehicle services, mesh, 802.11s, LTE, IDM, cloud services, multiprotocol node, data transfer protocol, routing protocols, simulated, NS--3.
 
 } % end footnotesize
 
@@ -151,20 +151,26 @@ vehicle services, automotive services, cloud services, cloud environment, multip
 %\section{Введение}
 \input{intro.tex}
 
+%\section{Постановка задачи}
+\input{task.tex}
+
+%\section{Предлагаемые решения}
+\input{decision.tex}
+
 %\section{Автомобильные телекоммуникационные сервисы}
-\input{auto.tex}
+%\input{auto.tex}
 
 %\section{Телематические технологии доступа к сервисам}
-\input{telematics.tex}
+%\input{telematics.tex}
 
 %\section{Облачно--ориентированная избыточная мультипротокольная сеть}
-\input{cloud.tex}
+%\input{cloud.tex}
 
 % \section{Реализация среды моделирования передачи сообщений в сети автомобилей}
 \input{implementation.tex}
 
 %\section{Исследование}
-\input{research.tex}
+%\input{research.tex}
 
 %\section{Заключение}
 \input{conclusion.tex}

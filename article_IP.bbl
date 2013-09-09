@@ -1,53 +1,45 @@
 \begin{thebibliography}{1}
-\def\selectlanguageifdefined#1{
-\expandafter\ifx\csname date#1\endcsname\relax
-\else\selectlanguage{#1}\fi}
-\providecommand*{\href}[2]{{\small #2}}
-\providecommand*{\url}[1]{{\small #1}}
-\providecommand*{\BibUrl}[1]{\url{#1}}
-\providecommand{\BibAnnote}[1]{}
-\providecommand*{\BibEmph}[1]{#1}
+
+\bibitem{GOST}
+Начиональный стандарт~Российской Федерации.
+\newblock Глобальная навигационная спутниковая система. Система экстренного
+  реагирования при авариях. Автомобильная система вызова экстренных оперативных
+  служб. Общие технические требования.
+\newblock Стандартинформ, Москва, 2012.
 
 \bibitem{Andreev}
-\selectlanguageifdefined{english}
-\BibEmph{Andreev,~K.} Ieee 802.11s mesh networking ns-3 model. "---
+Kirill Andreev and Pavel Boyko.
+\newblock Ieee 802.11s mesh networking ns-3 model.
 \newblock Retrieved March, 15, 2013 from
-  \url{http://www.nsnam.org/workshops/wns3-2010/dot11s.pdf}. "---
-\newblock 2013.
+  \url{http://www.nsnam.org/workshops/wns3-2010/dot11s.pdf}, 2013.
 
 \bibitem{5678993}
-\selectlanguageifdefined{english}
-\BibEmph{Arbabi,~H.} Highway mobility and vehicular ad-hoc networks in ns-3~/
-  H.~Arbabi, M.C.~Weigle~// Simulation Conference (WSC), Proceedings of the
-  2010 Winter. "---
-\newblock 2010. "---
-\newblock P.~2991--3003.
-
-\bibitem{Narra:2011:DDV:2151054.2151132}
-\selectlanguageifdefined{english}
-Destination-sequenced distance vector (dsdv) routing protocol implementation in
-  ns-3~/ Hemanth~Narra, Yufei~Cheng, Egemen~K.~\c{C}etinkaya et~al.~//
-  Proceedings of the 4th International ICST Conference on Simulation Tools and
-  Techniques. "---
-\newblock SIMUTools '11. "---
-\newblock ICST, Brussels, Belgium, Belgium: ICST (Institute for Computer
-  Sciences, Social-Informatics and Telecommunications Engineering), 2011. "---
-\newblock P.~439--446. "---
-\newblock \BibUrl{ http://dl.acm.org/citation.cfm?id=2151054.2151132}.
+H.~Arbabi and M.C. Weigle.
+\newblock Highway mobility and vehicular ad-hoc networks in ns-3.
+\newblock In {\em Simulation Conference (WSC), Proceedings of the 2010 Winter},
+  pages 2991--3003, 2010.
 
 \bibitem{Ford.co.uk}
-\selectlanguageifdefined{english}
-\BibEmph{Ford.co.uk}. News from ford. ford's sync emergency assistance could
-  provide important support to road accident victims says aa president. "---
+Ford.co.uk.
+\newblock News from ford. ford's sync emergency assistance could provide
+  important support to road accident victims says aa president.
 \newblock Retrieved March, 15, 2013 from
-  \url{http://www.ford.co.uk/experience-ford/AboutFord/News/CompanyNews/2012/Fords-Sync-Emergency-Assistance}.
-  "---
-\newblock 2012.
+  \url{http://www.ford.co.uk/experience-ford/AboutFord/News/CompanyNews/2012/Fords-Sync-Emergency-Assistance},
+  2012.
+
+\bibitem{Narra:2011:DDV:2151054.2151132}
+Hemanth Narra, Yufei Cheng, Egemen~K. \c{C}etinkaya, Justin~P. Rohrer, and
+  James P.~G. Sterbenz.
+\newblock Destination-sequenced distance vector (dsdv) routing protocol
+  implementation in ns-3.
+\newblock In {\em Proceedings of the 4th International ICST Conference on
+  Simulation Tools and Techniques}, SIMUTools '11, pages 439--446, ICST,
+  Brussels, Belgium, Belgium, 2011. ICST (Institute for Computer Sciences,
+  Social-Informatics and Telecommunications Engineering).
 
 \bibitem{Nsnam.org}
-\selectlanguageifdefined{english}
-\BibEmph{Nsnam.org}. Ns-3. "---
-\newblock Retrieved March, 15, 2013 from \url{http://www.nsnam.org}. "---
-\newblock 2013.
+Nsnam.org.
+\newblock Ns-3.
+\newblock Retrieved March, 15, 2013 from \url{http://www.nsnam.org}, 2013.
 
 \end{thebibliography}

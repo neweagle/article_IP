@@ -1,65 +1,53 @@
 \begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
 
 \bibitem{Andreev}
-Kirill Andreev and Pavel Boyko.
-\newblock Ieee 802.11s mesh networking ns-3 model.
+\selectlanguageifdefined{english}
+\BibEmph{Andreev,~K.} Ieee 802.11s mesh networking ns-3 model. "---
 \newblock Retrieved March, 15, 2013 from
-  \url{http://www.nsnam.org/workshops/wns3-2010/dot11s.pdf}, 2013.
+  \url{http://www.nsnam.org/workshops/wns3-2010/dot11s.pdf}. "---
+\newblock 2013.
 
 \bibitem{5678993}
-H.~Arbabi and M.C. Weigle.
-\newblock Highway mobility and vehicular ad-hoc networks in ns-3.
-\newblock In {\em Simulation Conference (WSC), Proceedings of the 2010 Winter},
-  pages 2991--3003, 2010.
-
-\bibitem{Ford.co.uk}
-Ford.co.uk.
-\newblock News from ford. ford's sync emergency assistance could provide
-  important support to road accident victims says aa president.
-\newblock Retrieved March, 15, 2013 from
-  \url{http://www.ford.co.uk/experience-ford/AboutFord/News/CompanyNews/2012/Fords-Sync-Emergency-Assistance},
-  2012.
-
-\bibitem{Instrumental}
-Kurochkin~Mihail Glazunov~Vadim, Kurochkin~Leonid and Popov Sergey.
-\newblock Instrumental environment of multi-protocol cloud-oriented vehicular
-  mesh network.
-\newblock In {\em 10th International Conference on Informatics in Control,
-  Automation and Robotics (ICINCO)}, 2013.
-
-\bibitem{Road}
-Kurochkin~Mihail Glazunov~Vadim, Kurochkin~Leonid and Popov Sergey.
-\newblock Road traffic efficiency and safety improvements trends.
-\newblock In {\em 10th International Conference on Informatics in Control,
-  Automation and Robotics (ICINCO)}, 2013.
-
-\bibitem{LTE}
-LTE.
-\newblock Lte module.
-\newblock Retrieved March, 15, 2013 from
-  \url{http://www.nsnam.org/docs/release/3.16/models/html/lte.html}, 2013.
-
-\bibitem{Msadaa:2010:CSM:1848649.1849209}
-Ikbal~Chammakhi Msadaa, Pasquale Cataldi, and Fethi Filali.
-\newblock A comparative study between 802.11p and mobile wimax-based v2i
-  communication networks.
-\newblock In {\em Proceedings of the 2010 Fourth International Conference on
-  Next Generation Mobile Applications, Services and Technologies}, NGMAST '10,
-  pages 186--191, Washington, DC, USA, 2010. IEEE Computer Society.
+\selectlanguageifdefined{english}
+\BibEmph{Arbabi,~H.} Highway mobility and vehicular ad-hoc networks in ns-3~/
+  H.~Arbabi, M.C.~Weigle~// Simulation Conference (WSC), Proceedings of the
+  2010 Winter. "---
+\newblock 2010. "---
+\newblock P.~2991--3003.
 
 \bibitem{Narra:2011:DDV:2151054.2151132}
-Hemanth Narra, Yufei Cheng, Egemen~K. \c{C}etinkaya, Justin~P. Rohrer, and
-  James P.~G. Sterbenz.
-\newblock Destination-sequenced distance vector (dsdv) routing protocol
-  implementation in ns-3.
-\newblock In {\em Proceedings of the 4th International ICST Conference on
-  Simulation Tools and Techniques}, SIMUTools '11, pages 439--446, ICST,
-  Brussels, Belgium, Belgium, 2011. ICST (Institute for Computer Sciences,
-  Social-Informatics and Telecommunications Engineering).
+\selectlanguageifdefined{english}
+Destination-sequenced distance vector (dsdv) routing protocol implementation in
+  ns-3~/ Hemanth~Narra, Yufei~Cheng, Egemen~K.~\c{C}etinkaya et~al.~//
+  Proceedings of the 4th International ICST Conference on Simulation Tools and
+  Techniques. "---
+\newblock SIMUTools '11. "---
+\newblock ICST, Brussels, Belgium, Belgium: ICST (Institute for Computer
+  Sciences, Social-Informatics and Telecommunications Engineering), 2011. "---
+\newblock P.~439--446. "---
+\newblock \BibUrl{ http://dl.acm.org/citation.cfm?id=2151054.2151132}.
+
+\bibitem{Ford.co.uk}
+\selectlanguageifdefined{english}
+\BibEmph{Ford.co.uk}. News from ford. ford's sync emergency assistance could
+  provide important support to road accident victims says aa president. "---
+\newblock Retrieved March, 15, 2013 from
+  \url{http://www.ford.co.uk/experience-ford/AboutFord/News/CompanyNews/2012/Fords-Sync-Emergency-Assistance}.
+  "---
+\newblock 2012.
 
 \bibitem{Nsnam.org}
-Nsnam.org.
-\newblock Ns-3.
-\newblock Retrieved March, 15, 2013 from \url{http://www.nsnam.org}, 2013.
+\selectlanguageifdefined{english}
+\BibEmph{Nsnam.org}. Ns-3. "---
+\newblock Retrieved March, 15, 2013 from \url{http://www.nsnam.org}. "---
+\newblock 2013.
 
 \end{thebibliography}
